@@ -1,21 +1,37 @@
 # FinSage
 
 **FinSage** is a financial analysis skill designed to help investors analyze securities through a **portfolio manager’s perspective**.  
+Built for IDE-based AI workflows, it can be integrated into coding-agent environments and plugin-enabled tools such as **Claude Code, Codex, OpenClaw, and similar systems**.
+
 By integrating plugins and external data or workflow tools, FinSage aims to deliver more structured, research-oriented, and decision-supportive analysis for investment use cases.
 
 ## Description
 
-FinSage is built for investors who want to go beyond surface-level market commentary and evaluate securities with a more disciplined, portfolio-manager-style lens.
+FinSage is built for investors, analysts, and builders who want to go beyond surface-level market commentary and evaluate securities with a more disciplined, portfolio-manager-style lens.
 
-Instead of treating investment analysis as isolated stock picking, FinSage is designed to support a broader analytical workflow, including:
+Rather than treating investment analysis as isolated stock picking, FinSage is designed to support a broader analytical workflow, including:
 
 - security-level analysis
 - portfolio context awareness
 - risk and return framing
 - comparative evaluation
 - plugin-based extension for specialized tools and data sources
+- use inside IDE and agentic development environments
 
-The project can be used as a skill layer inside AI-assisted workflows, enabling users to combine language-model reasoning with plugin-powered financial analysis capabilities.
+FinSage is intended to function as a **skill layer inside AI-assisted development and research workflows**, especially in environments where AI agents can call tools, read structured context, and coordinate external plugins.
+
+## IDE and Agent Workflow Context
+
+FinSage is designed for use **inside IDE-centered and agent-driven workflows**, rather than as a standalone brokerage or consumer trading app.
+
+Typical usage contexts may include:
+
+- **Claude Code**
+- **Codex**
+- **OpenClaw**
+- other IDE-based or plugin-enabled AI coding assistants
+
+In this setup, FinSage can act as a reusable financial analysis skill that helps an AI agent or user perform more structured security research, compare investment opportunities, and generate portfolio-oriented analytical outputs.
 
 ## Core Idea
 
@@ -44,12 +60,14 @@ FinSage may support workflows such as:
 - risk factor mapping
 - scenario and sensitivity analysis
 - integrating external financial data plugins into AI workflows
+- embedding portfolio-style financial reasoning into IDE-based AI agents
 
 ## Design Principles
 
 - **Investor-oriented**: built for real-world investment thinking, not generic summaries
 - **Portfolio-manager mindset**: emphasizes judgment, trade-offs, and context
 - **Plugin-friendly**: designed to work with external capabilities and data connectors
+- **IDE-native workflow fit**: intended for agentic and developer-centric environments
 - **Explainable workflows**: aims to produce reasoning that is structured and reviewable
 - **Modular**: can evolve with different tools, strategies, and research needs
 
