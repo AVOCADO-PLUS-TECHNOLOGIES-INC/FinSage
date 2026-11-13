@@ -54,7 +54,7 @@ FinSage helps users think more like a professional portfolio manager by emphasiz
 FinSage may support workflows such as:
 
 - equity research assistance
-- security screening and comparison
+- security comparison
 - portfolio review and discussion support
 - investment memo drafting
 - risk factor mapping
@@ -85,6 +85,17 @@ Before making any investment decision, users are strongly encouraged to consult 
 
 FinSage is an evolving project.  
 Its architecture, plugin integrations, and analytical workflows may continue to expand over time.
+
+| Component | Status |
+|---|---|
+| Skill definition and install guide ([`skill/finsage/`](skill/finsage/)) | Implemented |
+| Sourced, dated data workflow (uses the session's market-data and web tools) | Implemented |
+| Python package (`fin_analysis/`) | Placeholder — no code yet |
+| Plugin system and dedicated data connectors | Planned |
+
+## Availability
+
+FinSage is provided in English only and is not offered to users in mainland China.
 
 ## License
 
