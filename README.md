@@ -95,7 +95,7 @@ Its architecture, plugin integrations, and analytical workflows may continue to 
 
 ## Availability
 
-FinSage is provided in English only and is not offered to users in mainland China.
+FinSage is not offered to users in mainland China.
 
 ## License
 
